@@ -1,6 +1,6 @@
 def print_multiplication_table(number):
     print(f"Multiplication table for {number}:")
-    for i in range(1, 101)
+    for i in range(1, 101):  # Added a colon here
         print(f"{number} x {i} = {number * i}")
 
 if __name__ == "__main__":
